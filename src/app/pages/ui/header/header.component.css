@@ -1,0 +1,22 @@
+.logo-nav{
+    width: 12%;
+}
+
+.dropdown-menu{
+    color: rgba(255,255,255,.5);
+    background-color: #007bff!important;
+    border: 0;
+}
+
+.dropdown-item:hover{
+    background-color: inherit;
+    color: #fff !important;
+}
+
+.dropdown-item{
+    color: rgba(255,255,255,.5)
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    color: #fff;
+}

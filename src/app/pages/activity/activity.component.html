@@ -1,0 +1,22 @@
+<div class="activity-page">
+  <div *ngIf="activity && activity['categories'] && activity['categories'].length > 0" style="margin-top: 70px;">
+    {{activity.name}}
+    
+    <!-- <div class="row">
+        <div *ngFor="let category of activity['categories']; let i = index"
+            [ngClass]="{'col-lg-4': activity['categories'].length === 3,
+                        'col-lg-6': activity['categories'].length === 2,
+                        'col-lg-12': activity['categories'].length === 1}"
+        >
+            <a class="btn btn-pink btn-block btn-category" (click)="display(i)" role="button">
+                {{category.name}}
+            </a>
+        </div>
+    </div>
+    <div *ngFor="let category of activity['categories']; let i = index">
+        <div *ngIf="isDisplayed(i)" class="card card-body">
+            {{category.name}}
+        </div>
+    </div> -->
+  </div>
+</div>

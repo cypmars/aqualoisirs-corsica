@@ -1,0 +1,49 @@
+<!-- <nav class="navbar navbar-dark bg-dark mb-5">
+  <a class="navbar-brand" href="/">Angular & Bootstrap</a>
+  <div class="navbar-expand mr-auto">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home</a>
+      <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#">Contact</a>
+    </div>
+  </div>
+  <div class="navbar-expand ml-auto navbar-nav">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="https://github.com/beeman" target="_blank">
+        <i class="fa fa-github"></i>
+      </a>
+      <a class="nav-item nav-link" href="https://twitter.com/beeman_nl" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a class="nav-item nav-link" href="https://medium.com/@beeman" target="_blank">
+        <i class="fa fa-medium"></i>
+      </a>
+    </div>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <a class="navbar-brand" href="#"><img src="assets/img/logo-nav.png" class="logo-nav">qualoisirs</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> 
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mx-auto">
+      <div *ngFor="let item of items; let i = index">
+        <li class="nav-item" [ngClass]="{'dropdown': item.activities && item.activities.length > 0, 'active': this.activeItem.id === i }">
+          <a class="nav-link dropdown-toggle" *ngIf="item.activities && item.activities.length > 0" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{item.name}}</a>
+          <div class="dropdown-menu" *ngIf="item.activities && item.activities.length > 0" aria-labelledby="dropdown01">
+            <a class="dropdown-item" *ngFor="let activity of item.activities; let j = index" (click)="goToActivityPage('activity', i, j)" [ngClass]="{'active': this.activeActivity && this.activeItem.id === i && this.activeActivity.id === j }">{{activity.name}}</a>
+          </div>
+          <a class="nav-link" *ngIf="(!item.activities || item.activities.length === 0) && item.id !== 0 && item.id !== 6" (click)="goToActivityPage('activity', item.id)">{{item.name}}</a>
+          <a class="nav-link" *ngIf="(!item.activities || item.activities.length === 0) && item.id === 0" (click)="goToHomePage()">{{item.name}}</a>
+          <a class="nav-link" *ngIf="(!item.activities || item.activities.length === 0) && item.id === 6" (click)="goToContactPage()">{{item.name}}</a>
+        </li>
+      </div>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
