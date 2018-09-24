@@ -1,22 +1,42 @@
 <div class="activity-page">
-  <div *ngIf="activity && activity['categories'] && activity['categories'].length > 0" style="margin-top: 70px;">
-    {{activity.name}}
-    
-    <!-- <div class="row">
-        <div *ngFor="let category of activity['categories']; let i = index"
-            [ngClass]="{'col-lg-4': activity['categories'].length === 3,
-                        'col-lg-6': activity['categories'].length === 2,
-                        'col-lg-12': activity['categories'].length === 1}"
-        >
-            <a class="btn btn-pink btn-block btn-category" (click)="display(i)" role="button">
-                {{category.name}}
-            </a>
+  <div *ngIf="activity && activity.categories && activity.categories.length > 0">
+    <section class="module parallax parallax-1" [ngStyle]="{'background-image':'url('+activity.pictures[0]+')'}" data-type="background" data-speed="10">
+        <div class="parallax-container">
+            <h1>{{activity.name}}</h1>
         </div>
-    </div>
-    <div *ngFor="let category of activity['categories']; let i = index">
-        <div *ngIf="isDisplayed(i)" class="card card-body">
-            {{category.name}}
+    </section>
+    <section class="module content">
+        <div class="row">
+            <div *ngFor="let category of activity.categories; let i = index"
+                [ngClass]="{'col-lg-4': activity.categories.length === 3,
+                            'col-lg-6': activity.categories.length === 2,
+                            'col-lg-12': activity.categories.length === 1}"
+            >
+                <a class="btn btn-pink btn-block btn-category" [ngClass]="{'btn-active': isDisplayed(i)}" (click)="display(i)">
+                    {{category.name}}
+                </a>
+            </div>
+            <div *ngFor="let category of activity.categories; let i = index" class="col-lg-12">
+                <div *ngIf="isDisplayed(i)" class="mytable">
+                    <p class="text-center" *ngFor="let indication of category.indications">{{indication}}</p>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-center" style="max-width: 100px;" *ngFor="let row of category.table.rows">{{row}}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let line of category.table.lines">
+                                    <th scope="row" class="text-center" *ngIf="line.title">{{line.title}}</th>
+                                    <td class="text-center" *ngFor="let value of line.values;">{{value}}€</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div> -->
+    </section>
   </div>
 </div>

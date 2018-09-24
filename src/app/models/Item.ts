@@ -6,7 +6,7 @@ export class Item {
   public title: string;
   public key: string;
   public activities: Array<Activity>;
-
+  
   constructor() { }
 
 }

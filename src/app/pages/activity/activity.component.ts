@@ -16,6 +16,7 @@ export class ActivityComponent implements OnInit {
 
   items: Array<Item>;
   activity: any;
+  category;
   constructor(private route: ActivatedRoute, private router: Router, private itemsService: ItemsService) { }
 
   ngOnInit() {

@@ -1,122 +1,100 @@
 [
     {
         "id": 0,
+        "ico": "home.png",
         "name": "Accueil"
     },
     {
         "id": 1,
+        "ico": "voile.png",
         "name": "Activités Voile",
         "picture": "assets/img/activities/pVoile/pvoile1.jpg",
         "activities": [
             {
                 "id": 0,
-                "name": "Dérive & Voile",
-                "key": "deriveVoile",
-                "categories": [
-                    {
-                        "name": "Locations",
-                        "tab": [
-                            { "title": "1 heure", "value": 21 },
-                            { "title": "2 heures", "value": 39 },
-                            { "title": "3 heures", "value": 56 },
-                            { "title": "4 heures", "value": 56 },
-                            { "title": "1 journée", "value": 80 },
-                            { "title": "5 heures au choix", "value": 89 },
-                            { "title": "10 heures au choix", "value": 165 },
-                            { "title": "1 semaine", "value": 332 }
-                        ]
-                    }
-                ],
-                "pictures": []
-            },
-            {
-                "id": 1,
                 "name": "Planche à Voile",
                 "key": "plancheVoile",
                 "categories": [
                     {
                         "name": "Locations",
-                        "tab": [
-                            { "title": "1h", "value": 17 },
-                            { "title": "2 heures", "value": 32 },
-                            { "title": "3 heures", "value": 46 },
-                            { "title": "4 heures", "value": 46 },
-                            { "title": "1 journée", "value": 69 },
-                            { "title": "5 heures au choix", "value": 76 },
-                            { "title": "10 heures au choix", "value": 141 },
-                            { "title": "1 semaine", "value": 275 }
-                        ]
+                        "indications": [
+                            "Vous savez naviguer, profitez d’une offre variée de location de planches et de voiles, adaptée à tous les niveaux et aux conditions de vent (planche à dérive, funboard, voile Dacron ou monofilm…).",
+                            "L’équipement de sécurité est inclus dans le prix et un harnais est fourni sur demande et sans supplément.",
+                            "* Le montant de la caution est donné à titre indicatif, sans obligation de dépôt. Toute location nécessite la signature d’un contrat de location."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Planche", "Caution", "1 heure", "2 heures", "3 heures", "4 heures", "1 journée",
+                                "5h au choix", "10h au choix", "1 semaine"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Planche à dérive + voile Dacron",
+                                    "values": [600, 17, 32, 46, 46, 69, 76, 141, 275]
+                                },
+                                { 
+                                    "title": "Planche à dérive + voile monofilm",
+                                    "values": [600, 21, 39, 56, 56, 80, 89, 165, 332]
+                                },
+                                { 
+                                    "title": "Planche à Funboard + voile monofilm",
+                                    "values": [600, 26, 45, 67, 67, 91, 102, 188, 389]
+                                }
+                            ]
+                        }
                     },
                     {
-                        "name": "Cours Collectifs",
+                        "name": "Cours Collectifs (1h30)",
                         "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                            "Naviguez en groupe, encadré par un moniteur de voile diplômé, pour découvrir la planche à voile ou vous perfectionner.",
+                            "Les cours collectifs de voile se déroulent le matin, l’après-midi étant réservé aux cours particuliers.",
+                            "Dès votre deuxième cours collectif, la souscription d’une licence auprès de la Fédération Française de Voile est obligatoire (coût : 12€). Elle inclus une assurance et la création d’un livret Passeport Voile qui suivra le licencié durant toutes ses expériences de voile et lui permettra de valider des niveaux de navigation.",
+                            "Nous vous conseillons de réserver à l’avance par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
                         ],
-                        "tab": [
-                            { "title": "durée", "value": "1h30"},
-                            { "title": "1 séance", "value": 27 },
-                            { "title": "3 séances", "value": 74 },
-                            { "title": "6 séances", "value": 139 }
-                        ]
+                        "table": {
+                            "rows": [
+                                "1 séance", "3 séances", "6 séance" 
+                            ],
+                            "lines": [
+                                { "values": [27, 74, 139] }
+                            ]
+                        }
                     },
                     {
-                        "name": "Cours Particuliers",
+                        "name": "Cours Particuliers (1h)",
                         "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                            "Profitez d’un apprentissage personnalisé lors d’un cours particulier dont vous pouvez bénéficier seul ou à deux ! Que vous soyez débutant ou confirmé, le moniteur diplômé vous accompagnera afin de vous permettre de profiter au maximum des conditions de vent et d’un plan d’eau sécurisant au sein du golfe de Valinco.",
+                            "Les cours particuliers de voile se déroulent exclusivement l’après-midi, les matinées étant réservées aux cours collectifs.",
+                            "Nous vous conseillons de réserver à l’avance par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
                         ],
-                        "tabMulti": {
-                            "lines": ["1 personne", "2 personnes"],
-                            "tab": [
-                                { "title": "durée", "value1": "1h", "value2": "-" },
-                                { "title": "1 séance", "value1": 55, "value2": 72 },
-                                { "title": "3 séances", "value1": 134, "value2": 166 },
-                                { "title": "6 séances", "value1": 254, "value2": 324 }
+                        "table": {
+                            "rows": [
+                                "Nombre d'éléves", "1 séance", "3 séances", "6 séance"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "1 personne",
+                                    "values": [55, 134, 254]
+                                },
+                                { 
+                                    "title": "2 personnes",
+                                    "values": [72, 166, 324]
+                                }
                             ]
                         }
                     }
                 ],
                 "pictures": [
-                    "assets/img/activities/pVoile/pvoile1.jpg",
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
                     "assets/img/activities/pVoile/pvoile2.jpg",
                     "assets/img/activities/pVoile/pvoile3.jpg"
                 ]
             },
             {
-                "id": 2,
-                "name": "Fun Board",
-                "key": "fBoard",
-                "categories": [
-                    {
-                        "name": "Locations",
-                        "tab": [
-                            { "title": "1 heure", "value": 26 },
-                            { "title": "2 heures", "value": 45 },
-                            { "title": "3 heures", "value": 67 },
-                            { "title": "4 heures", "value": 67 },
-                            { "title": "1 journée", "value": 91 },
-                            { "title": "5 heures au choix", "value": 102 },
-                            { "title": "10 heures au choix", "value": 188 },
-                            { "title": "1 semaine", "value": 389 }
-                        ]
-                    },
-                    {
-                        "name": "Cours Particuliers",
-                        "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
-                        ],
-                        "tab": [
-                            { "title": "durée", "value": "1h"},
-                            { "title": "1 séance", "value": 72 },
-                            { "title": "3 séances", "value": 166 },
-                            { "title": "6 séances", "value": 324 }
-                        ]
-                    }
-                ],
-                "pictures": []
-            },
-            {
-                "id": 3,
-                "name": "HobieCat",
+                "id": 1,
+                "name": "Catamaran",
                 "key": "hCat",
                 "categories": [
                     {
@@ -133,32 +111,73 @@
                                 { "title": "10 heures au choix", "value1": 277, "value2": 308, "value3": 340 },
                                 { "title": "1 semaine", "value1": 581, "value2": 644, "value3": 721 }
                             ]
+                        },
+                        "indications": [
+                            "Nous vous proposons un service de location de catamaran avec du matériel entretenu et de qualité, pour tous les navigateurs disposant des bases nécessaires pour partir en toute autonomie. Avant toute location et afin de garantir votre sécurité durant la navigation, un moniteur diplômé s’assure de votre niveau d’autonomie.",
+                            "Choisissez la durée de location et profitez de tarifs dégressifs !",
+                            "Tous nos catamarans peuvent être réservés à l’avance par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Catamaran", "Caution", "1 heure", "2 heures", "3 heures", "1 journée",
+                                "5h au choix", "10h au choix", "1 semaine"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Hobie Cat dragoon",
+                                    "values": [800, 38, 65, 89, 133, 149, 277, 581]
+                                },
+                                { 
+                                    "title": "Hobie Cat 15",
+                                    "values": [800, 38, 72, 98, 152, 168, 308, 644]
+                                },
+                                { 
+                                    "title": "Hobie Cat 16",
+                                    "values": [800, 47, 82, 112, 166, 173, 340, 721]
+                                }
+                            ]
                         }
                     },
                     {
-                        "name": "Cours Collectifs",
+                        "name": "Cours Collectifs (1h30)",
                         "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                            "Naviguez en groupe, encadré par un moniteur de voile diplômé, pour découvrir la voile, appréhender les notions de vent puis vous perfectionner.",
+                            "Les cours collectifs de voile se déroulent le matin, l’après-midi étant réservé aux cours particuliers.",
+                            "Dès votre deuxième cours collectif, la souscription d’une licence auprès de la Fédération Française de Voile est obligatoire (coût : 12€). Elle inclus une assurance et la création d’un livret Passeport Voile qui suivra le licencié durant toutes ses expériences de voile et lui permettra de valider des niveaux de navigation.",
+                            "Nous vous conseillons de réserver à l’avance par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
                         ],
-                        "tab": [
-                            { "title": "durée", "value": "1h30"},
-                            { "title": "1 séance", "value": 34 },
-                            { "title": "3 séances", "value": 93 },
-                            { "title": "6 séances", "value": 172 }
-                        ]
+                        "table": {
+                            "rows": [
+                                "1 séance", "3 séances", "6 séance" 
+                            ],
+                            "lines": [
+                                { "values": [34, 93, 172] }
+                            ]
+                        }
                     },
                     {
-                        "name": "Cours Particuliers",
+                        "name": "Cours Particuliers (1h)",
                         "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                            "Encadré par un moniteur diplômé qui s’adapte pleinement à votre souhait d’apprentissage de la voile, faites le choix d’un cours particulier ! Seul, à deux ou à trois mais toujours en famille ou entre amis, profitez au maximum du vent et d’un cadre magnifique pour vous perfectionner.",
+                            "Les cours particuliers de voile se déroulent exclusivement l’après-midi, les matinées étant réservées aux cours collectifs.",
+                            "Nous vous conseillons de réserver à l’avance par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
                         ],
-                        "tabMulti": {
-                            "lines": ["1 personne - Découverte ou Sportif", "2 personnes - Découverte ou Sportif"],
-                            "tab": [
-                                { "title": "durée", "value1": "1h", "value2": "-" },
-                                { "title": "1 séance", "value1": 55, "value2": 72 },
-                                { "title": "3 séances", "value1": 134, "value2": 166 },
-                                { "title": "6 séances", "value1": 254, "value2": 324 }
+                        "table": {
+                            "rows": [
+                                "Nombre d'éléves", "1 séance", "3 séances", "6 séance"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "1 personne",
+                                    "values": [55, 134, 254]
+                                },
+                                { 
+                                    "title": "2 ou 3 personnes",
+                                    "values": [72, 166, 324]
+                                }
                             ]
                         }
                     }
@@ -169,125 +188,82 @@
                 ]
             },
             {
-                "id": 4,
-                "name": "Kayak",
-                "key": "kayak",
-                "categories": [
-                    {
-                        "name": "Locations",
-                        "tabMulti": {
-                            "lines": [ "Kayak Simple", "Kayak Double", "Kayak Quattro" ],
-                            "tab": [
-                                { "title": "1 heure", "value1": 13, "value2": 17, "value3": 20 },
-                                { "title": "2 heures", "value1": 24, "value2": 32, "value3": 38 },
-                                { "title": "3 heures", "value1": 35, "value2": 46, "value3": 54 },
-                                { "title": "4 heures", "value1": 35, "value2": 46, "value3": 54 },
-                                { "title": "1 journée", "value1": 52, "value2": 69, "value3": 79 },
-                                { "title": "5 heures au choix", "value1": 57, "value2": 76, "value3": 90 },
-                                { "title": "10 heures au choix", "value1": 103, "value2": 141, "value3": 165 },
-                                { "title": "1 semaine", "value1": 194, "value2": 38, "value3": "-" }
-                            ]
-                        }
-                    },
-                    {
-                        "name": "Randonnées",
-                        "indications": [
-                            "Guidés par un moniteur diplômé, partez à la découverte de nos côtes sauvages et notamment de la crique de Cala Muretta, accessible uniquement par la mer",
-                            "Accessible à tous !"
-                        ],
-                        "tab": [
-                            { "title": "durée", "value": "1h30" },
-                            { "title": "prix", "value": "35€ / Personne" }
-                        ]
-                    }
-                ],
-                "pictures": [
-                    "",
-                    ""
-                ]
-            },
-            {
-                "id": 5,
-                "name": "Optimist",
+                "id": 2,
+                "name": "Optimist / FunBoat",
                 "key": "optimist",
                 "categories": [
                     {
                         "name": "Locations",
-                        "tab": [
-                            { "title": "1 heure", "value": 17 },
-                            { "title": "2 heures", "value": 32 },
-                            { "title": "3 heures", "value": 46 },
-                            { "title": "4 heures", "value": 46 },
-                            { "title": "1 journée", "value": 69 },
-                            { "title": "5 heures au choix", "value": 76 },
-                            { "title": "10 heures au choix", "value": 141 },
-                            { "title": "1 semaine", "value": 275 }
-                        ]
+                        "indications": [
+                            "Nous proposons un service de location de Funboat et d’Optimist destiné à toutes personnes ayant les bases nécessaires pour partir naviguer en toute autonomie.",
+                            "L’équipement de sécurité est inclus dans le prix.",
+                            "* Le montant de la caution est donné à titre indicatif, sans obligation de dépôt. Toute location nécessite la signature d’un contrat de location."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Support", "Caution", "1 heure", "2 heures", "3 heures", "1 journée",
+                                "5h au choix", "10h au choix", "1 semaine"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Optimist",
+                                    "values": [600, 17, 32, 46, 69, 76, 141, 275]
+                                },
+                                { 
+                                    "title": "FunBoat",
+                                    "values": [600, 28, 53, 79, "/", 168, "/", "/"]
+                                }
+                            ]
+                        }
                     },
                     {
-                        "name": "Cours Collectifs",
+                        "name": "Cours Collectifs (1h30)",
                         "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                            "Partagez vos expériences de la navigation et perfectionnez-vous en groupe, lors d’un cours collectif encadré par un moniteur diplômé.",
+                            "Les cours collectifs de voile se déroulent le matin, l’après-midi étant réservée aux cours particuliers.",
+                            "Dès votre deuxième cours collectif, la souscription d’une licence auprès de la Fédération Française de Voile est obligatoire (coût : 12€). Elle inclus une assurance et la création d’un livret Passeport Voile qui suivra le licencié durant toutes ses expériences de voile et lui permettra de valider des niveaux de navigation.",
+                            "Nous vous conseillons de réserver par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
                         ],
-                        "tab": [
-                            { "title": "1h30", "value": 27 },
-                            { "title": "3 x 1h30", "value": 74 },
-                            { "title": "6 x 1h30", "value": 139 }
-                        ]
+                        "table": {
+                            "rows": [
+                                "Support", "1 séance", "3 séances", "6 séance"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Optimist",
+                                    "values": [27, 74, 139]
+                                },
+                                { 
+                                    "title": "FunBoard",
+                                    "values": [27, 74, 139]
+                                }
+                            ]
+                        }
                     },
                     {
-                        "name": "Cours Particuliers",
+                        "name": "Cours Particuliers (1h)",
                         "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
+                            "Prenez le temps d’un cours particulier avec un moniteur diplômé qui s’adaptera à votre expérience de la voile, afin de vous faire découvrir les premières sensations de navigation ou de vous perfectionner.",
+                            "Les cours particuliers de voile se déroulent l’après-midi, les matinées étant réservées aux cours collectifs.",
+                            "Nous vous conseillons de réserver à l’avance par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
                         ],
-                        "tab": [
-                            { "title": "1h", "value": 55 },
-                            { "title": "3 x 1h", "value": 134 },
-                            { "title": "6 x 1h", "value": 254 }
-                        ]
-                    }
-                ],
-                "pictures": [
-                    "",
-                    ""
-                ]
-            },
-            {
-                "id": 6,
-                "name": "Fun Boat",
-                "key": "fBoat",
-                "categories": [
-                    {
-                        "name": "Locations",
-                        "tab": [
-                            { "title": "1 heure", "value": 28 },
-                            { "title": "2 heures", "value": 53 },
-                            { "title": "3 heures", "value": 79 },
-                            { "title": "4 heures", "value": 79 },
-                            { "title": "5 heures au choix", "value": 125 }
-                        ]
-                    },
-                    {
-                        "name": "Cours Collectifs",
-                        "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
-                        ],
-                        "tab": [
-                            { "title": "1h30", "value": 27 },
-                            { "title": "3 x 1h30", "value": 74 },
-                            { "title": "6 x 1h30", "value": 139 }
-                        ]
-                    },
-                    {
-                        "name": "Cours Particuliers",
-                        "indications": [
-                            "L'achat d'une licence enseignement est obligatoire pour la prise de cours (12 €). Ce tarif inclut une assurance et un livret des niveaux et expériences"
-                        ],
-                        "tab": [
-                            { "title": "1h", "value": 55 },
-                            { "title": "3 x 1h", "value": 134 },
-                            { "title": "6 x 1h", "value": 254 }
-                        ]
+                        "table": {
+                            "rows": [
+                                "Support", "1 séance", "3 séances", "6 séance"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Optimist",
+                                    "values": [55, 134, 254]
+                                },
+                                { 
+                                    "title": "FunBoard",
+                                    "values": [55, 134, 254]
+                                }
+                            ]
+                        }
                     }
                 ],
                 "pictures": [
@@ -299,10 +275,21 @@
     },
     {
         "id": 2,
-        "name": "Activités Nautique",
+        "ico": "act-tractees.png",
+        "name": "Activités Tractées",
         "activities": [
             {
                 "id": 0,
+                "name": "Ski Nautique / WakeBoard",
+                "key": "skiWake",
+                "categories": [
+                    {
+                        "name": "Ski Nautique et Wakeboard"
+                    }
+                ]
+            },
+            {
+                "id": 1,
                 "name": "Bouées & Canap",
                 "key": "bouees",
                 "categories": [
@@ -319,42 +306,22 @@
                 ]
             },
             {
-                "id": 1,
-                "name": "Ski Nautique ",
-                "key": "skiWake",
-                "categories": [
-                    {
-                        "name": "Ski Nautique et Wakeboard"
-                    }
-                ]
-            },
-            {
                 "id": 2,
-                "name": "Pédalo",
-                "key": "pedalo",
+                "name": "Baby Ski",
+                "key": "babyski",
                 "categories": [
                     {
-                        "name": "Pédalo"
+                        "name": "Baby Ski"
                     }
                 ]
             },
             {
                 "id": 3,
-                "name": "Paddle ",
-                "key": "paddles",
+                "name": "Bouées Tractées",
+                "key": "bouees",
                 "categories": [
                     {
-                        "name": "Paddle & Paddle Eclipse"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "name": "AquaGym",
-                "key": "AquaNat",
-                "categories": [
-                    {
-                        "name": "AquaGym & Natation"
+                        "name": "Bouées Tractées"
                     }
                 ]
             }
@@ -362,53 +329,48 @@
     },
     {
         "id": 3,
-        "name": "Surf",
-        "key": "surf"
+        "ico": "canoe.png",
+        "name": "Paddles / Kayaks",
+        "key": "paddlesKayaks",
+        "activities": [
+            {
+
+            }
+        ]
     },
     {
         "id": 4,
-        "name": "Transat",
-        "key": "transat"
+        "ico": "plage.png",
+        "name": "Loisirs Plage",
+        "key": "loisirsPlage",
+        "activities": [
+            {
+
+            }
+        ]
     },
     {
         "id": 5,
-        "name": "Location Bateaux",
+        "ico": "bateau.png",
+        "name": "Location Bateau",
+        "key": "locBateau",
         "activities": [
             {
-                "id": 0,
-                "name": "Avec Permis",
-                "key": "withPermis",
-                "categories": [
-                    {
-                        "name": "Avec Permis"
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "name": "Sans Permis",
-                "key": "withoutPermis",
-                "categories": [
-                    {
-                        "name": "Sans Permis"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "name": "Jet Ski",
-                "key": "jetski",
-                "categories": [
-                    {
-                        "name": "Jet-Ski"
-                    }
-                ]
+
             }
         ]
     },
     {
         "id": 6,
-        "name": "Contact"
+        "ico": "surf.png",
+        "name": "Surf",
+        "key": "surf"
+    },
+    {
+        "id": 7,
+        "ico": "ecolemer.png",
+        "name": "Ecole de la mer",
+        "key": "ecoleMer"
     }
 ]
     

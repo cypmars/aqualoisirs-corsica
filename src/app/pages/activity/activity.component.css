@@ -1,5 +1,5 @@
 .activity-page {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .btn-category{
@@ -14,14 +14,145 @@
     color: #FFFFFF !important;
     background-color: #e2177d;
 }
-.btn-category:first-child {
 
+.jumbotron {
+    background-image: url("https://www.smak.co.za/images/bg.jpg");
+    background-size: 100% 100%;
+    color: #b0bec5;
+    margin-bottom: 0;
+  }
+  /* ============================================================
+    PRIMARY STRUCTURE
+  ============================================================ */
+  .parallax-container {
+    margin: 0 0;
+  }
+  
+  /* ============================================================
+    SECTIONS
+  ============================================================ */
+  section.module:last-child {
+    margin-bottom: 0;
+  }
+  section.module h2 {
+    margin-bottom: 40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+  }
+  section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  section.module p:last-child {
+    margin-bottom: 0;
+  }
+  section.module.content {
+    padding: 0 0;
+    background-color: rgba(207,216,220,0.5);
+  }
+  section.module.content:last-child {
+    margin-bottom: 60px;
+  }
+  section.module.parallax {
+    padding: 120px 0 !important;
+    background-position: 0 0;
+  }
+  section.module.parallax h1 {
+    color: #fff;
+    font-size: 40px !important;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 0 0 10px white;
+  }
+  section.module.parallax-1 {
+    background-position: 50% 0;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: screen;
+  }
+  section.module.parallax-2 {
+    background-image: url("../../../assets/img/diapo4.jpg");
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: screen;
+  }
+  section.module.parallax-3 {
+    background-image: url("../../../assets/img/title2.jpg");
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: screen;
+  }
+  
+  @media all and (min-width: 600px) {
+    section.module h2 {
+      font-size: 42px;
+    }
+    section.module p {
+      font-size: 20px;
+    }
+    section.module.parallax {
+      padding: 300px 0;
+    }
+    section.module.parallax h1 {
+      font-size: 96px;
+    }
+  }
+  @media all and (min-width: 960px) {
+    section.module.parallax h1 {
+      font-size: 160px;
+    }
+  }
+
+.logo{
+    width: 100%;
+} 
+
+.fixed-item{
+    position: absolute;
+    z-index: 1020;
+    top: 35%;
+    left: 20%;
+    right: 20%;
 }
 
-.btn-category:last-child {
+@media only screen and (min-width: 993px){
+    .fixed-item{
+        top: 30%;
+        left: 35%;
+        right: 35%;
+    }
+}
 
+.body{
+    width: 100%;
+}
+.pink-text{
+    color: #f31f89;
+}
+
+.btn-active{
+    background-color: #f31f89;
 }
 
 .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
-    padding: 0 0 0 0;
+    padding: 0 0;
+}
+
+.mytable{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row {
+  margin-right: 0;
 }

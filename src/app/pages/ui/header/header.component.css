@@ -20,3 +20,13 @@
 .dropdown-item.active, .dropdown-item:active{
     color: #fff;
 }
+
+.ico{
+    width: 20px;
+    vertical-align: center;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
