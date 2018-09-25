@@ -30,15 +30,15 @@
                             "lines": [
                                 { 
                                     "title": "Planche à dérive + voile Dacron",
-                                    "values": [600, 17, 32, 46, 46, 69, 76, 141, 275]
+                                    "values": ["600€", "17€", "32€", "46€", "46€", "69€", "76€", "141€", "275€"]
                                 },
                                 { 
                                     "title": "Planche à dérive + voile monofilm",
-                                    "values": [600, 21, 39, 56, 56, 80, 89, 165, 332]
+                                    "values": ["600€", "21€", "39€", "56€", "56€", "80€", "89€", "165€", "332€"]
                                 },
                                 { 
                                     "title": "Planche à Funboard + voile monofilm",
-                                    "values": [600, 26, 45, 67, 67, 91, 102, 188, 389]
+                                    "values": ["600€", "26€", "45€", "67€", "67€", "91€", "102€", "188€", "389€"]
                                 }
                             ]
                         }
@@ -57,7 +57,7 @@
                                 "1 séance", "3 séances", "6 séance" 
                             ],
                             "lines": [
-                                { "values": [27, 74, 139] }
+                                { "values": ["27€", "74€", "139€"] }
                             ]
                         }
                     },
@@ -76,11 +76,11 @@
                             "lines": [
                                 { 
                                     "title": "1 personne",
-                                    "values": [55, 134, 254]
+                                    "values": ["55€", "134€", "254€"]
                                 },
                                 { 
                                     "title": "2 personnes",
-                                    "values": [72, 166, 324]
+                                    "values": ["72€", "166€", "324€"]
                                 }
                             ]
                         }
@@ -96,22 +96,13 @@
                 "id": 1,
                 "name": "Catamaran",
                 "key": "hCat",
+                "descriptions": [
+                    "Adepte de voile, vous souhaitez naviguer en catamaran dans le golfe du Valinco à la force du vent ?",
+                    "Découvrez nos offres de location et de cours encadrés par des moniteurs diplômés."
+                ],
                 "categories": [
                     {
                         "name": "Locations",
-                        "tabMulti": {
-                            "lines": ["Hobie Cat Dragoon", "Hobie Cat 15/Découverte", "Hobie Cat 16/Sportif"],
-                            "tab": [
-                                { "title": "1 heure", "value1": 38, "value2": 38, "value3": 47 },
-                                { "title": "2 heures", "value1": 65, "value2": 72, "value3": 82 },
-                                { "title": "3 heures", "value1": 89, "value2": 98, "value3": 112 },
-                                { "title": "4 heures", "value1": 89, "value2": 98, "value3": 112 },
-                                { "title": "1 journée", "value1": 133, "value2": 152, "value3": 166 },
-                                { "title": "5 heures au choix", "value1": 149, "value2": 168, "value3": 173 },
-                                { "title": "10 heures au choix", "value1": 277, "value2": 308, "value3": 340 },
-                                { "title": "1 semaine", "value1": 581, "value2": 644, "value3": 721 }
-                            ]
-                        },
                         "indications": [
                             "Nous vous proposons un service de location de catamaran avec du matériel entretenu et de qualité, pour tous les navigateurs disposant des bases nécessaires pour partir en toute autonomie. Avant toute location et afin de garantir votre sécurité durant la navigation, un moniteur diplômé s’assure de votre niveau d’autonomie.",
                             "Choisissez la durée de location et profitez de tarifs dégressifs !",
@@ -126,15 +117,15 @@
                             "lines": [
                                 { 
                                     "title": "Hobie Cat dragoon",
-                                    "values": [800, 38, 65, 89, 133, 149, 277, 581]
+                                    "values": ["800€", "38€", "65€", "89€", "133€", "149€", "277€", "581€"]
                                 },
                                 { 
                                     "title": "Hobie Cat 15",
-                                    "values": [800, 38, 72, 98, 152, 168, 308, 644]
+                                    "values": ["800€", "38€", "72€", "98€", "152€", "168€", "308€", "644€"]
                                 },
                                 { 
                                     "title": "Hobie Cat 16",
-                                    "values": [800, 47, 82, 112, 166, 173, 340, 721]
+                                    "values": ["800€", "47€", "82€", "112€", "166€", "173€", "340€", "721€"]
                                 }
                             ]
                         }
@@ -153,7 +144,7 @@
                                 "1 séance", "3 séances", "6 séance" 
                             ],
                             "lines": [
-                                { "values": [34, 93, 172] }
+                                { "values": ["34€", "93€", "172€"] }
                             ]
                         }
                     },
@@ -172,11 +163,11 @@
                             "lines": [
                                 { 
                                     "title": "1 personne",
-                                    "values": [55, 134, 254]
+                                    "values": ["55€", "134€", "254€"]
                                 },
                                 { 
                                     "title": "2 ou 3 personnes",
-                                    "values": [72, 166, 324]
+                                    "values": ["72€", "166€", "324€"]
                                 }
                             ]
                         }
@@ -207,11 +198,11 @@
                             "lines": [
                                 { 
                                     "title": "Optimist",
-                                    "values": [600, 17, 32, 46, 69, 76, 141, 275]
+                                    "values": ["600€", "17€", "32€", "46€", "69€", "76€", "141€", "275€"]
                                 },
                                 { 
                                     "title": "FunBoat",
-                                    "values": [600, 28, 53, 79, "/", 168, "/", "/"]
+                                    "values": ["600€", "28€", "53€", "79€", "/", "168€", "/", "/"]
                                 }
                             ]
                         }
@@ -232,11 +223,11 @@
                             "lines": [
                                 { 
                                     "title": "Optimist",
-                                    "values": [27, 74, 139]
+                                    "values": ["27€", "74€", "139€"]
                                 },
                                 { 
                                     "title": "FunBoard",
-                                    "values": [27, 74, 139]
+                                    "values": ["27€", "74€", "139€"]
                                 }
                             ]
                         }
@@ -256,11 +247,11 @@
                             "lines": [
                                 { 
                                     "title": "Optimist",
-                                    "values": [55, 134, 254]
+                                    "values": ["55€", "134€", "254€"]
                                 },
                                 { 
                                     "title": "FunBoard",
-                                    "values": [55, 134, 254]
+                                    "values": ["55€", "134€", "254€"]
                                 }
                             ]
                         }
@@ -284,45 +275,154 @@
                 "key": "skiWake",
                 "categories": [
                     {
-                        "name": "Ski Nautique et Wakeboard"
+                        "name": "La leçon",
+                        "indications": [
+                            "La leçon est destinée aux débutants mais pas seulement ! Vous avez déjà pratiqué mais vous souhaitez vous perfectionner et améliorer votre glisse ? La leçon est aussi faite pour vous !",
+                            "D’une durée de 30 minutes, elle allie la pratique et la théorie, car vous bénéficiez d’explications et de conseils dispensés par un moniteur diplômé.",
+                            "Nous vous conseillons de réserver votre leçon par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus dans le prix."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Support"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Ski Nautique",
+                                    "values": ["39€"]
+                                },
+                                { 
+                                    "title": "WakeBoard",
+                                    "values": ["39€"]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Le tour",
+                        "indications": [
+                            "Skieur ou wakeboarder, venez vous régaler sur un plan d’eau magnifique et optimal en début et fin de journée. Le tour, d’une durée de 15 minutes, est destiné aux personnes initiées à la pratique du ski nautique et du wakeboard tractés par un bateau 🙂",
+                            "Nous vous conseillons de réserver votre session par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Support", "1 tour", "5 tours", "10 tours"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Ski Nautique",
+                                    "values": ["29€", "135€", "240€"]
+                                },
+                                { 
+                                    "title": "WakeBoard",
+                                    "values": ["29€", "135€", "240€"]
+                                }
+                            ]
+                        }
                     }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
                 ]
             },
             {
                 "id": 1,
-                "name": "Bouées & Canap",
-                "key": "bouees",
-                "categories": [
-                    {
-                        "name": "Bouées",
-                        "indications": [
-                            "Notre pilote adapte sa vitesse à vos envie de glisse, enfant ou adulte, sage ou audacieux",
-                            "Laissez-vous tenter !"
-                        ],
-                        "tab": [
-                            
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 2,
                 "name": "Baby Ski",
                 "key": "babyski",
                 "categories": [
                     {
-                        "name": "Baby Ski"
+                        "name": "Baby Ski",
+                        "indications": [
+                            "Laissez-vous tenter par une initiation de ski nautique adaptée à votre enfant (à partir de 4 ans) !",
+                            "Un moniteur diplômé encadre l’évolution en ski de votre enfant dans une zone de navigation sécurisée, avec un support et un bateau tracteur adapté à son âge.",
+                            "Nous vous conseillons de réserver par téléphone ou directement sur place.",
+                            "L’équipement de sécurité est inclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Support",
+                                "1 tour"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Baby Ski",
+                                    "values": ["20€"]
+                                }
+                            ]
+                        }
                     }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
                 ]
             },
             {
-                "id": 3,
+                "id": 2,
                 "name": "Bouées Tractées",
                 "key": "bouees",
                 "categories": [
                     {
-                        "name": "Bouées Tractées"
+                        "name": "Canapé",
+                        "indications": [
+                            "Vous pensez être confortablement assis dans votre canapé devant votre télévision ?!?",
+                            "Détrompez-vous !! Prévu pour tracter 2 à 4 personnes, le canapé offre de supers sensations de glisse, de vitesse et de sortie de sillage, pour les petits et les grands !"
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Bouées", "1 personne", "2 personnes", "3 personnes", "4 personnes"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Canapé",
+                                    "values": ["/", "20€ / personne", "20€ / personne", "4ème personne offerte"]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Soucoupe",
+                        "indications": [
+                            "Elle ne s’envole pas mais presque !!! Allongés à plat ventre, à la force des bras, accrochez-vous et défiez la gravité ! Prévue pour tracter 2 à 4 personnes, la soucoupe est la dernière arrivée de nos bouées tractées !"
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Bouées", "1 personne", "2 personnes", "3 personnes", "4 personnes"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Soucoupe",
+                                    "values": ["/", "20€ / personne", "20€ / personne", "4ème personne offerte"]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "Bouées individuelles",
+                        "indications": [
+                            "Seul, en famille ou entre amis, accrochez-vous et profitez de sensations de glisse incomparables !"
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Bouées", "1 personne", "2 personnes", "3 personnes", "4 personnes"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Bouées individuelles",
+                                    "values": ["25€ / personne", "18€ / personne", "15€ / personne", "15€ / personne"]
+                                }
+                            ]
+                        }
                     }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
                 ]
             }
         ]
@@ -330,11 +430,99 @@
     {
         "id": 3,
         "ico": "canoe.png",
-        "name": "Paddles / Kayaks",
+        "name": "Paddles & Kayaks",
         "key": "paddlesKayaks",
         "activities": [
             {
-
+                "id": 0,
+                "name": "Location",
+                "key": "location",
+                "categories": [
+                    {
+                        "name": "Paddles & Kayak",
+                        "indications": [
+                            "A votre disposition, une offre variée de kayaks et paddles : simple, double ou quatro pour autant de plaisir solo, entre amis ou en famille !",
+                            "Le step paddle, nouveauté 2017, offre des sensations de stabilité, de fluidité et de vitesse très agréables !",
+                            "Nous vous conseillons un itinéraire et une zone de navigation pour profiter pleinement de ce moment.",
+                            "L’équipement de sécurité est inclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Support", "30 minutes", "1 heure", "2 heures", "3 ou 4 heures", "1 journée",
+                                "5h au choix", "10h au choix", "1 semaine"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Kayak simple",
+                                    "values": ["/", "13€", "24€", "35€", "52€", "57€", "103€", "194€"]
+                                },
+                                { 
+                                    "title": "Kayak double",
+                                    "values": ["/", "17€", "32€", "46€", "69€", "76€", "141€", "275€"]
+                                },
+                                { 
+                                    "title": "Kayak quatro",
+                                    "values": ["/", "20€", "38€", "54€", "79€", "90€", "165€", "/"]
+                                },
+                                { 
+                                    "title": "Paddle simple",
+                                    "values": ["/", "15€", "28€", "40€", "60€", "67€", "119€", "224€"]
+                                },
+                                {
+                                    "title": "Paddle double",
+                                    "values": ["/", "20€", "38€", "53€", "/", "/", "/", "/"]
+                                },
+                                { 
+                                    "title": "Paddle quatro",
+                                    "values": ["/", "25€", "48€", "66€", "/", "/", "/", "/"]
+                                },
+                                { 
+                                    "title": "Step Paddle (Paddle Eclipse)",
+                                    "values": ["15€", "23€", "40€", "58€", "/", "/", "/", "/"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Randonnées",
+                "key": "randonnées",
+                "categories": [
+                    {
+                        "name": "Randonnées",
+                        "indications": [
+                            "Partez à plusieurs, accompagnés d’un moniteur diplômé, et profitez de l’ambiance de groupe pour randonner à la tombée du jour à la découverte de la côte sauvage !",
+                            "L’équipement de sécurité est inclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Randonnée d'1h30", "Tarif"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Paddle",
+                                    "values": ["29€ / Personne"]
+                                },
+                                { 
+                                    "title": "Kayak",
+                                    "values": ["29€ / Personne"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
             }
         ]
     },
@@ -345,7 +533,135 @@
         "key": "loisirsPlage",
         "activities": [
             {
-
+                "id": 0,
+                "name": "Transats & Parasols",
+                "key": "transatpara",
+                "categories": [
+                    {
+                        "name": "Location",
+                        "indications": [
+                            "Installez-vous confortablement sur un transat à l’ombre des parasols et profiter pleinement de votre journée !"
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type d'installation", "1 heure", "demi-journée", "Journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Transat avec Parasol",
+                                    "values": ["5€", "9€", "15€"]
+                                },
+                                { 
+                                    "title": "Parasol simple",
+                                    "values": ["/", "5€", "10€"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Pédalo",
+                "key": "pedalo",
+                "categories": [
+                    {
+                        "name": "Location",
+                        "indications": [
+                            "Moment de détente assuré, profitez d’une activité accessible à tous ! Nos pédalos, équipés ou non de toboggans, peuvent accueillir 5 personnes à bord. ",
+                            "La réservation n’est pas nécessaire. Un gilet de sauvetage peut-être fourni sur demande."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Pédalo", "30min", "1 heure", "2 heures"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Pédalo 5pers. avec toboggan",
+                                    "values": ["9€", "15€", "28€"]
+                                },
+                                { 
+                                    "title": "Pédalo 5pers. sans toboggan",
+                                    "values": ["9€", "15€", "28€"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Water-Bike",
+                "key": "waterbike",
+                "categories": [
+                    {
+                        "name": "Location",
+                        "indications": [
+                            "Les vélos sont LA nouveauté de l’été 2018 !",
+                            "Prenez un peu de hauteur et découvrez l’agréable sensation de pédaler sur l’eau."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type de Vélo", "30min", "1h"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Water-Bike",
+                                    "values": ["20€", "35€"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Snorkeling",
+                "key": "snorkeling",
+                "categories": [
+                    {
+                        "name": "Location",
+                        "indications": [
+                            "Équipez-vous et partez vous faufiler dans les rochers pour tenter d’apercevoir oursins, raies, murènes, bancs de poissons et autres !",
+                            "Une pièce d’identité est demandée en caution lors de votre location."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Matériel", "1 heure", "Demi-journée", "1 journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Palme, Masque, Tuba",
+                                    "values": ["5€", "10€", "15€"]
+                                },
+                                { 
+                                    "title": "Shorty",
+                                    "values": ["/", "5€", "10€"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
             }
         ]
     },
@@ -356,7 +672,134 @@
         "key": "locBateau",
         "activities": [
             {
-
+                "id": 0,
+                "name": "Bateau avec Permis",
+                "key": "bateaupermis",
+                "categories": [
+                    {
+                        "name": "CAP CAMARAT 5.15 (70CV)",
+                        "indications": [
+                            "Bateau Jeanneau Cap Camarat 5,15 permettant d’accueillir 5 personnes à son bord, d’une puissance moteur de 70CV.",
+                            "Pour un tarif de location à la semaine ou au mois, nous consulter.",
+                            "* Les prix sont indiqués carburant exclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type d'embarcation", "Caution", "Nombre de personne à bord", "Demi-journée", "1 journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Cap Camarat 5.15",
+                                    "values": ["3000€ (Chèque bancaire ou pièce d’identité)", "5", "160€*", "280€*"]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "CAP CAMARAT 6.50 (150CV)",
+                        "indications": [
+                            "Bateau Jeanneau Cap Camarat 6,50 permettant d’accueillir 7 personnes à son bord, d’une puissance moteur de 150CV.",
+                                "Le Cap Camarat 6,50 est équipé d’un taud de soleil, d’un bain de soleil avant et d’une douchette.",
+                                "Pour un tarif de location à la semaine ou au mois, nous consulter.",
+                                "* Les prix sont indiqués carburant exclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type d'embarcation", "Caution", "Nombre de personne à bord", "Demi-journée", "1 journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Cap Camarat 6.50",
+                                    "values": ["3000€ (Chèque bancaire ou pièce d’identité)", "7", "210€*", "340€*"]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "TEMPEST (700CV)",
+                        "indications": [
+                            "Le bateau Capelli Tempest 700 permet d’accueillir 12 personnes à son bord et est dôté d’un moteur de 200CV.",
+                            "Spacieux et confortable, il est équipé d’une douchette, d’un taud de soleil, de bains de soleil, d’un GPS, d’un sondeur et d’un guindeau électrique.",
+                            "Pour un tarif de location à la semaine ou au mois, nous consulter.",
+                            "* Les prix sont indiqués carburant exclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type d'embarcation", "Caution", "Nombre de personne à bord", "Demi-journée", "1 journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Tempest 700",
+                                    "values": ["4000€ (Chèque bancaire ou pièce d’identité)", "16", "290€*", "450€*"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Bateau sans Permis",
+                "key": "bateaunopermis",
+                "categories": [
+                    {
+                        "name": "BATEAU 3.80 (6CV)",
+                        "indications": [
+                            "Accessibles à tous, nos bateaux sans permis vous permettent de découvrir la côte sauvage et les criques d’Agulia et Conca. Permettant d’accueillir 5 personnes à bord, ils sont équipés d’un moteur à barre franche de 6CV.",
+                            "* Les prix sont indiqués carburant exclus."
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type d'embarcation", "Caution", "Nombre de personne à bord", "1 heure", "2 heures", "Demi-journée", "1 journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Bateau sans permis",
+                                    "values": ["800€ (Chèque bancaire ou pièce d’identité)", "5", "60€ essence incluse", "80€ essence incluse", "80€*", "112€*"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Jet-Ski",
+                "key": "jetski",
+                "categories": [
+                    {
+                        "name": "JET-SKI SEA-DOO (155CV)",
+                        "indications": [
+                            "PERMIS BATEAU OBLIGATOIRE"
+                        ],
+                        "table": {
+                            "rows": [
+                                "Type d'embarcation", "Caution", "Nombre de personne à bord", "30 minutes", "1 heures", "Demi-journée", "1 journée"
+                            ],
+                            "lines": [
+                                { 
+                                    "title": "Jet-Ski",
+                                    "values": ["3000€ (Chèque bancaire)", "3 pers.", "90€ essence incluse", "160€ essence incluse", "300€*", "500€*"]
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "pictures": [
+                    "../../../assets/img/activities/pVoile/pvoile1.JPG",
+                    "assets/img/activities/pVoile/pvoile2.jpg",
+                    "assets/img/activities/pVoile/pvoile3.jpg"
+                ]
             }
         ]
     },
@@ -364,13 +807,26 @@
         "id": 6,
         "ico": "surf.png",
         "name": "Surf",
-        "key": "surf"
+        "key": "surf",
+        "categories": []
     },
     {
         "id": 7,
         "ico": "ecolemer.png",
         "name": "Ecole de la mer",
-        "key": "ecoleMer"
+        "key": "ecoleMer",
+        "categories": [
+            {
+                "name": "Les Petits Explorateurs",
+                "description": "L’école de la mer « Les Petits Explorateurs » accueille chaque matin les enfants de 4 à 7 ans pour une initiation aux différentes activités nautiques et une sensibilisation à l’environnement marin.",
+                "indications": [
+                    "Le moniteur encadre un groupe limité à 6 enfants, âgés de 4 à 7 ans, et les initient à la pratique des différentes activités proposées dans notre club nautique : activités tractées, voile, kayak, paddle, surf, excursion en bateau, snorkelling…",
+                    "Les enfants sont stimulés et enchantés par la découverte de l’environnement marin, sa faune et sa flore.",
+                    "La réservation par téléphone ou directement sur place est conseillée. ",
+                    "L’équipement de confort et de sécurité est inclus."
+                ]
+            }
+        ]
     }
 ]
     
